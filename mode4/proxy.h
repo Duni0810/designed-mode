@@ -26,7 +26,7 @@ typedef struct proxy_serv{
 } proxy_serv_t;
 
 
-typedef proxy_serv_t *proxy_handle;  /**< oled通用服务句柄 */
+typedef proxy_serv_t *proxy_handle;  /**< 代理的服务句柄 */
 
 
 

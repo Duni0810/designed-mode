@@ -4,9 +4,8 @@
 #include "string.h"
 
 
-int main()
+int main(int argc, char *argv[])
 {
-	//printf("送礼物\n");
 	char *girl = "xiaohua\0";
 	
 	// 小明看上那个姑娘告诉中介 

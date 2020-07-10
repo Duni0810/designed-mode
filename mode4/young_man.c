@@ -78,10 +78,8 @@ proxy_handle young_man_init(young_man_handle        handle,
 	memcpy(handle->girl_name, name, name_len);
 	
 	// run dev functions 
-	
 	printf("init ok\n");
-	
-	
+		
 	return &(handle->isa);
 }
 					   

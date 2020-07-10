@@ -6,14 +6,14 @@
 
 
 typedef struct young_man_info {
-	const char *name;
+	const char *name;   						// 保存小伙子的名字 
 }young_man_info_t; 
 
 /** \brief oled设备 */
 typedef struct young_man {
-	proxy_serv_t              isa; 
+	proxy_serv_t              isa;   		  // 获取代理能代处理的事物          
 	const young_man_info_t   *info; 
-	char                      girl_name[10];
+	char                      girl_name[10];  // 记录姑娘的名字 
 }young_man_t;
 
 /** \brief 设备句柄 */
